@@ -40,4 +40,7 @@ namespace vsgXchange
     };
 } // namespace vsgXchange
 
-EVSG_type_name(vsgXchange::all);
+namespace vsg
+{
+VSG_type_name(vsgXchange::all);
+}

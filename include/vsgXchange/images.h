@@ -116,8 +116,11 @@ namespace vsgXchange
 
 } // namespace vsgXchange
 
-EVSG_type_name(vsgXchange::images);
-EVSG_type_name(vsgXchange::stbi);
-EVSG_type_name(vsgXchange::dds);
-EVSG_type_name(vsgXchange::ktx);
-EVSG_type_name(vsgXchange::openexr);
+namespace vsg
+{
+VSG_type_name(vsgXchange::images);
+VSG_type_name(vsgXchange::stbi);
+VSG_type_name(vsgXchange::dds);
+VSG_type_name(vsgXchange::ktx);
+VSG_type_name(vsgXchange::openexr);
+}

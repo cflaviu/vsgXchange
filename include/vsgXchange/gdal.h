@@ -52,7 +52,10 @@ namespace vsgXchange
 
 } // namespace vsgXchange
 
-EVSG_type_name(vsgXchange::GDAL);
+namespace vsg
+{
+VSG_type_name(vsgXchange::GDAL);
+}
 
 #ifdef vsgXchange_GDAL
 

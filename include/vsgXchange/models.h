@@ -72,5 +72,8 @@ namespace vsgXchange
 
 } // namespace vsgXchange
 
-EVSG_type_name(vsgXchange::models);
-EVSG_type_name(vsgXchange::assimp);
+namespace vsg
+{
+VSG_type_name(vsgXchange::models);
+VSG_type_name(vsgXchange::assimp);
+}

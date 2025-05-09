@@ -54,4 +54,7 @@ namespace vsgXchange
 
 } // namespace vsgXchange
 
-EVSG_type_name(vsgXchange::freetype);
+namespace vsg
+{
+VSG_type_name(vsgXchange::freetype);
+}
